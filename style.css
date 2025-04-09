@@ -1,26 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
- h1{
+
+.body {
+    color: #292F36;
+}
+
+h1 {
     font-family: "DM Serif Display", serif;
     font-size: 50px;
- }
+}
 
- p{
+p {
     font-family: "Jost", sans-serif;
-    font-size: 22px;
- }
+    font-size: 16px;
+}
+
 a {
     text-decoration: none;
+    font-family: "Jost", sans-serif;
+    color: #292F36;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
 }
 
 li {
     list-style: none;
 }
+
+h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 85px;
+}
+
+h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+/* Propriété flexbox */
 
 .flex {
     display: flex;
@@ -32,24 +67,55 @@ li {
 }
 
 .content {
-margin-top: 50px;
+    margin-top: 50px;
 }
+
 .alignCenter {
     align-items: center;
 }
 
+.gap20{
+    gap: 20px;
+}
+
+
 .container {
-    max-width:1000px;
+    max-width: 1000px;
     margin: auto;
 }
 
-.width28{
+.width28 {
     width: 28%;
 }
+.width45{
+    width: 45%;
+}
+
+.paddingTop100{
+    padding-top: 100px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
 
 .top100{
     margin-top: 100px;
 }
+
+.btn {
+    background-color: #292F36;
+    color: white;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: inline-block;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+
 /* HEADER */
 .logo {
     width: 200px;
@@ -68,6 +134,32 @@ header {
     background-image: url("assets/Banner.jpg");
     height: 100vh;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 0 0 0 200px;
+    padding-top: 100px;
 }
+.pHero{
+font-size: 22px;
+margin-top: 30px;
+}
+.cercle{
+    border-radius: 100%;
+    background-color: #F4F0EC;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radius{
+    border-radius: 0 300px 0 150px;
+}
+
+
+/* SECTION DEVIS 
+
+.imageSectionDevis{
+    border-radius: ;
+}
+*/
