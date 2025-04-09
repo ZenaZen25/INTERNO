@@ -186,9 +186,25 @@ margin-top: 30px;
     padding-bottom: 100px;
 }
 
-.
+.cardProjets > img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cardProjets > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
 
 
+.containerCarteProjets{
+    margin-top: 50px;
+}
 /* SECTION DEVIS 
 
 .imageSectionDevis{
