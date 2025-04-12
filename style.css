@@ -205,6 +205,64 @@ margin-top: 30px;
 .containerCarteProjets{
     margin-top: 50px;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.section6 {
+    background-color: #2c2f36; /* fond sombre */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .section6 .contenu {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .section6 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section6 p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .section6 form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .section6 input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 14px;
+  }
+  
+  .section6 button {
+    padding: 10px 16px;
+    background-color: #ffffff;
+    color: #2c2f36;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .section6 button:hover {
+    background-color: #e0e0e0;
+  }
+
 /* SECTION DEVIS 
 
 .imageSectionDevis{
