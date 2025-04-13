@@ -263,7 +263,12 @@ margin-top: 30px;
     background-color: #e0e0e0;
   }
   
-  
+  /* the corner is a circle */
+/* border-top-right-radius: radius */
+
+.carte {
+    border-top-right-radius: 80px 80px;  
+}
 
 /* SECTION DEVIS 
 
